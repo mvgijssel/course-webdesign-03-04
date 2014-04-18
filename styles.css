@@ -38,3 +38,7 @@ nav {
 #footer p {
     color: #7c7c7c;
 }
+
+#image-map img {
+    border: 3px solid blue;
+}

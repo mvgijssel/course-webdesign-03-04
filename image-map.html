@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Webdesign - Assignment 1</title>
-    <link rel="stylesheet" href="styles.css" type="text/css" >
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="alternate stylesheet" href="alt_styles.css" type="text/css" title="For partially sighted users.">
 </head>
 
@@ -37,46 +37,19 @@
 
     <div id="content">
 
-        <h1>My Studies</h1>
+        <h1>Image map</h1>
 
-        <table>
-            <caption>Listing of all my studies</caption>
-            <thead>
-            <tr>
-                <th>Study</th>
-                <th>Start</th>
-                <th>End</th>
-            </tr>
-            </thead>
+        <map name="image-map">
+            <area shape="rect" alt="What I like to watch" title="What I like to watch" coords="189,369,483,438" href="http://www.imdb.com/name/nm0002071/" target="_blank"/>
+            <area shape="circle" alt="What I like to talk about" title="What I like to talk about" coords="335,572,103" href="http://goodui.org/" target="_blank"/>
+            <area shape="poly" alt="What I like to listen to" title="What I like to listen to" coords="562,332,562,511,621,511,621,332" href="https://soundcloud.com/joris-voorn" target="_blank"/>
+        </map>
 
-            <tbody>
+        <img src="portrait_orig.jpg" alt="Original image of me" width="778" height="778" usemap="#image-map">
 
-            <tr>
-
-                <td>Artificial Intelligence</td>
-                <td>06 - 02 - 2014</td>
-                <td>04 - 04 - 2014</td>
-
-            </tr>
-
-            <tr>
-
-                <td>Webdesign</td>
-                <td>06 - 02 - 2014</td>
-                <td>28 - 05 - 2014</td>
-
-            </tr>
-
-            <tr>
-
-                <td>Something even more awesome</td>
-                <td>01 - 01 - 2014</td>
-                <td>25 - 06 - 2014</td>
-
-            </tr>
-
-            </tbody>
-        </table>
+        <p>
+            Click area's in the image to go to different parts of the site.
+        </p>
 
     </div>
 

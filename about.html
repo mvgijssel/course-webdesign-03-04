@@ -9,10 +9,14 @@
 
     <ul>
         <!-- relative url -->
-        <li><a href="/opdracht/index.html">Home</a></li>
+        <li><a href="/">Home</a></li>
 
         <!-- absolute url -->
-        <li><a href="http://localhost:63342/opdracht/about.html">About Me</a></li>
+        <li><a href="/about.html">About Me</a></li>
+
+        <li><a href="/studies.html">My Studies</a></li>
+
+        <li><a href="/hobbies.html">My Hobbies</a></li>
 
     </ul>
 
@@ -20,18 +24,16 @@
 
 <div id="content">
 
-    <h1>About Me</h1>
-
-    <!-- reference within the document -->
-    <a href="#image">My Image</a> |
-    <a href="#description">My Description</a> |
-    <a href="#studies">My Studies</a> |
-    <a href="#hobbies">My Hobbies</a>
+    <h1>About me</h1>
 
     <hr/>
 
-    <!-- my image section -->
-    <!--
+    <!-- reference within the document -->
+    <a href="#image">My Image</a> | <a href="#description">My Description</a> |
+
+    <hr/>
+
+    <!-- my image section --><!--
 
     use the id attribute instead of the name attribute to 'jump' to the anchor
     because in the html 5 doctype the name attribute doesn't exist for the anchor tag
@@ -48,54 +50,18 @@
     <h4>My Description:</h4>
 
     <p>
-        <i>Lorem ipsum dolor sit amet</i>, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate
-        dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam
-        repellat saepe tempora voluptatum.
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate
-        dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam
-        repellat saepe tempora voluptatum.
+        <i>Lorem ipsum dolor sit amet</i>, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum.
+        <br/>
+        <br/><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum.
     </p>
 
-    <hr/>
+</div>
 
-    <!-- My studies section -->
-    <a id="studies"></a>
-    <h4>My Studies:</h4>
-
-    <ul>
-        <li>Artificial Intelligence</li>
-        <li>Webdesign</li>
-        <li>Something even more awesome</li>
-    </ul>
+<div id="footer">
 
     <hr/>
 
-    <!-- My Hobbies section -->
-    <a id="hobbies"></a>
-    <h4>My Hobbies:</h4>
-
-    <ul>
-        <li>Webdesign</li>
-        <li>Graphic Design</li>
-        <li>Programming
-
-            <!-- nested list for the programming languages -->
-            <ul>
-
-                <li>Ruby</li>
-                <li>PHP</li>
-                <li>Javascript</li>
-                <li>Actionscript</li>
-                <li>Java</li>
-                <li>Python</li>
-
-            </ul>
-
-        </li>
-    </ul>
-
-    <hr/>
+    <p>&copy; Copyright some webdesigner</p>
 
 </div>
 

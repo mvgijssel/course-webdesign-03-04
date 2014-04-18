@@ -4,6 +4,26 @@
     <title>Webdesign - Assignment 6</title>
     <link rel="stylesheet" href="stylesheets/styles.css" type="text/css">
     <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css" title="For partially sighted users.">
+
+    <!-- override the external stylesheet styles -->
+    <style type="text/css">
+
+        nav
+        {
+            background-color: #FF1800;
+        }
+
+        #content h1{
+            color: #FF1800;
+        }
+
+        h1, h4{
+            color: #FF1800;
+            font-size: 50px;
+        }
+
+    </style>
+
 </head>
 
 <!-- defined the sans-serif font for the entire page -->
@@ -42,13 +62,16 @@
 
     <div id="content">
 
+        <!-- override the  -->
         <h1>Funny Stuff</h1>
 
-        <h4>Video</h4>
+        <!-- override the head section css -->
+        <h4 style="font-size: 20px;">Video</h4>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/oqEU-9VHwDo" frameborder="0" allowfullscreen></iframe>
 
-        <h4>Audio</h4>
+        <!-- override the head section css -->
+        <h4 style="font-size: 20px;">Audio</h4>
 
         <iframe width="560" height="315" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/139868950&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 

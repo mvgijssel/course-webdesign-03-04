@@ -6,67 +6,65 @@
 </head>
 
 <!-- defined the sans-serif font for the entire page -->
-<body style="font-family: sans-serif;">
+<body>
 
-<nav id="navigation">
+<div id="wrapper">
 
-    <ul>
-        <!-- absolute url -->
-        <li><a href="http://siegfried.webhosting.rug.nl/~s1684779/assignment3/index.html">Home</a></li>
+    <nav id="navigation">
 
-        <!-- relative url -->
-        <li><a href="about.html">About Me</a></li>
+        <ul>
+            <!-- absolute url -->
+            <li><a href="http://siegfried.webhosting.rug.nl/~s1684779/assignment3/index.html">Home</a></li>
 
-        <!-- relative url -->
-        <li><a href="studies.html">My Studies</a></li>
+            <!-- relative url -->
+            <li><a href="about.html">About Me</a></li>
 
-        <!-- relative url -->
-        <li><a href="hobbies.html">My Hobbies</a></li>
+            <!-- relative url -->
+            <li><a href="studies.html">My Studies</a></li>
 
-    </ul>
+            <!-- relative url -->
+            <li><a href="hobbies.html">My Hobbies</a></li>
 
-</nav>
+        </ul>
 
-<div id="content">
+    </nav>
 
-    <h1 align="center">About me</h1>
+    <div id="content">
 
-    <hr/>
+        <h1>About me</h1>
 
-    <!-- reference within the document -->
-    <a href="#image">My Image</a> | <a href="#description">My Description</a> |
+        <!-- reference within the document -->
+        <a href="#image">My Image</a> | <a href="#description">My Description</a>
 
-    <hr/>
+        <span class="horizontal-row"></span>
 
-    <!-- my image section --><!--
+        <!-- my image section --><!--
 
     use the id attribute instead of the name attribute to 'jump' to the anchor
     because in the html 5 doctype the name attribute doesn't exist for the anchor tag
 
     -->
-    <a id="image"></a>
-    <h4>My Image:</h4>
-    <img src="http://lorempixel.com/300/300/people/1" alt="an image of me">
+        <a id="image"></a>
+        <h4>My Image:</h4>
+        <img src="http://lorempixel.com/300/300/people/1" alt="an image of me">
 
-    <hr/>
+        <!-- my description section -->
+        <a id="description"></a>
+        <h4>My Description:</h4>
 
-    <!-- my description section -->
-    <a id="description"></a>
-    <h4>My Description:</h4>
+        <p>
+            <i>Lorem ipsum dolor sit amet</i>, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum.
+            <br/>
+            <br/><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum.
+        </p>
 
-    <p>
-        <i>Lorem ipsum dolor sit amet</i>, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum.
-        <br/>
-        <br/><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum.
-    </p>
+    </div>
 
-</div>
+    <div id="footer">
 
-<div id="footer">
+        <p>&copy; Copyright some webdesigner</p>
 
-    <hr/>
-
-    <p>&copy; Copyright some webdesigner</p>
+    </div>
 
 </div>
 

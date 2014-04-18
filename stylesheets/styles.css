@@ -8,6 +8,29 @@ nav {
     padding: 10px;
 }
 
+nav li {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    margin-right: 5px;
+}
+
+nav a:hover
+{
+    padding: 10px 10px 9px 10px;
+    border-bottom: 1px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
 .horizontal-row {
     border-bottom: 1px solid black;
     display: block;

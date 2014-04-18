@@ -3,13 +3,15 @@
 <head>
     <title>Webdesign - Assignment 1</title>
 </head>
-<body>
+
+<!-- defined the sans-serif font for the entire page -->
+<body style="font-family: sans-serif;">
 
 <nav id="navigation">
 
     <ul>
         <!-- absolute url -->
-        <li><a href="http://siegfried.webhosting.rug.nl/~s1684779/assignment1/index.html">Home</a></li>
+        <li><a href="http://siegfried.webhosting.rug.nl/~s1684779/assignment2/index.html">Home</a></li>
 
         <!-- relative url -->
         <li><a href="about.html">About Me</a></li>
@@ -26,19 +28,48 @@
 
 <div id="content">
 
-    <h1>My Studies</h1>
+    <h1 align="center">My Studies</h1>
 
     <hr/>
 
-    <!-- My studies section -->
-    <a id="studies"></a>
-    <h4>My Studies:</h4>
+    <table border="1">
+        <caption>Listing of all my studies</caption>
+        <thead>
+        <tr>
+            <th>Study</th>
+            <th>Start</th>
+            <th>End</th>
+        </tr>
+        </thead>
 
-    <ul>
-        <li>Artificial Intelligence</li>
-        <li>Webdesign</li>
-        <li>Something even more awesome</li>
-    </ul>
+        <tbody>
+
+        <tr>
+
+            <td>Artificial Intelligence</td>
+            <td>06 - 02 - 2014</td>
+            <td>04 - 04 - 2014</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Webdesign</td>
+            <td>06 - 02 - 2014</td>
+            <td>28 - 05 - 2014</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Something even more awesome</td>
+            <td>01 - 01 - 2014</td>
+            <td>25 - 06 - 2014</td>
+
+        </tr>
+
+        </tbody>
+    </table>
 
 </div>
 

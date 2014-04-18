@@ -11,8 +11,7 @@ nav a {
     margin-right: 10px;
 }
 
-nav a:hover
-{
+nav a:hover {
     padding: 20px 20px 18px 20px;
     border-bottom: 2px solid black;
 }

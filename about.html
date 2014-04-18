@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webdesign - Assignment 1</title>
+</head>
+<body>
+
+<nav id="navigation">
+
+    <ul>
+        <!-- relative url -->
+        <li><a href="/opdracht/index.html">Home</a></li>
+
+        <!-- absolute url -->
+        <li><a href="http://localhost:63342/opdracht/about.html">About Me</a></li>
+
+    </ul>
+
+</nav>
+
+<div id="content">
+
+    <h1>About Me</h1>
+
+    <!-- reference within the document -->
+    <a href="#image">My Image</a> |
+    <a href="#description">My Description</a> |
+    <a href="#studies">My Studies</a> |
+    <a href="#hobbies">My Hobbies</a>
+
+    <hr/>
+
+    <!-- my image section -->
+    <!--
+
+    use the id attribute instead of the name attribute to 'jump' to the anchor
+    because in the html 5 doctype the name attribute doesn't exist for the anchor tag
+
+    -->
+    <a id="image"></a>
+    <h4>My Image:</h4>
+    <img src="http://lorempixel.com/300/300/people/1" alt="an image of me">
+
+    <hr/>
+
+    <!-- my description section -->
+    <a id="description"></a>
+    <h4>My Description:</h4>
+
+    <p>
+        <i>Lorem ipsum dolor sit amet</i>, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate
+        dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam
+        repellat saepe tempora voluptatum.
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate
+        dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam
+        repellat saepe tempora voluptatum.
+    </p>
+
+    <hr/>
+
+    <!-- My studies section -->
+    <a id="studies"></a>
+    <h4>My Studies:</h4>
+
+    <ul>
+        <li>Artificial Intelligence</li>
+        <li>Webdesign</li>
+        <li>Something even more awesome</li>
+    </ul>
+
+    <hr/>
+
+    <!-- My Hobbies section -->
+    <a id="hobbies"></a>
+    <h4>My Hobbies:</h4>
+
+    <ul>
+        <li>Webdesign</li>
+        <li>Graphic Design</li>
+        <li>Programming
+
+            <!-- nested list for the programming languages -->
+            <ul>
+
+                <li>Ruby</li>
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>Actionscript</li>
+                <li>Java</li>
+                <li>Python</li>
+
+            </ul>
+
+        </li>
+    </ul>
+
+    <hr/>
+
+</div>
+
+</body>
+</html>

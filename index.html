@@ -2,36 +2,50 @@
 <html>
 <head>
     <title>Webdesign - Assignment 6</title>
-    <link rel="stylesheet" href="stylesheets/styles.css" type="text/css">
-    <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css" title="For partially sighted users.">
+    <link id="page-style" rel="stylesheet" href="stylesheets/styles.css" type="text/css">
+    <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css"
+          title="For partially sighted users.">
+    <meta name="robots" content="noindex, nofollow"/>
+    <script type="application/javascript" src="javascript/javascript.js"></script>
+    <style type="text/css">
+
+        p {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+    </style>
 </head>
 
 <!-- defined the sans-serif font for the entire page -->
 <body>
 
-<div id="wrapper">
+<div id="navigation-wrapper">
 
     <nav id="navigation">
 
         <ul>
-            <!-- absolute url -->
-            <li><a href="http://siegfried.webhosting.rug.nl/~s1684779/assignment6/index.html">Home</a></li>
 
-            <!-- relative url -->
-            <li><a href="about.html">About Me</a></li>
-
-            <!-- relative url -->
-            <li><a href="studies.html">My Studies</a></li>
-
-            <!-- relative url -->
-            <li><a href="hobbies.html">My Hobbies</a></li>
-
-            <!-- relative url -->
-            <li><a href="funny.html">Funny Stuff</a></li>
-
-            <!-- absolute url -->
             <li>
-                <a href="https://github.com/mvgijssel/course-webdesign-03-04/pull/5/commits" target="_blank">Github Changelog</a>
+                <a href="index.html" id="logo">
+                    <img src="images/cute-cake_transparant.png" alt="Cute Cake logo"/>
+                </a>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="bakery.html">Bakery</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="cakes.html">Cakes</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li class="pull-right">
+                <a href="https://github.com/mvgijssel/course-webdesign-03-04/pull/6/commits" target="_blank">Github
+                    Changelog</a>
+            </li>
+
+            <li class="pull-right" id="styling">
+                <a href="#" onclick="swapStyleSheet('styles'); return false;">Normal</a>
+                <a href="#" class="large" onclick="swapStyleSheet('alt_styles'); return false;">Large</a>
             </li>
 
         </ul>
@@ -40,30 +54,37 @@
 
     </nav>
 
+</div>
+
+<div id="wrapper">
+
     <div id="content">
 
-        <h1>Welcome to my website</h1>
+        <h1>Welcome to Cute Cake</h1>
 
-        <p>Click the image to go to the image map page.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet atque commodi cumque debitis
+            delectus eaque eius fugiat fugit id itaque nisi, nulla porro quidem quod reiciendis reprehenderit sequi
+            sunt?</p>
 
-        <a id="image-map" href="image-map.html">
-            <img src="images/portrait_thumb.jpg" alt="A thumbnail image of me" width="100" height="100"> </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet atque commodi cumque debitis
+            delectus eaque eius fugiat fugit id itaque nisi, nulla porro quidem quod reiciendis reprehenderit sequi
+            sunt?</p>
 
-        <span class="horizontal-row"></span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet atque commodi cumque debitis
+            delectus eaque eius fugiat fugit id itaque nisi, nulla porro quidem quod reiciendis reprehenderit sequi
+            sunt?</p>
 
-        <h4>Some interesting text about this website:</h4>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum. Lorem ipsum dolor sit amet,
-            <strong>consectetur adipisicing elit</strong>. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, autem blanditiis consectetur cupiditate dolorum eius esse eveniet laboriosam maiores necessitatibus nobis perferendis possimus praesentium quae quisquam repellat saepe tempora voluptatum.
-        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet atque commodi cumque debitis
+            delectus eaque eius fugiat fugit id itaque nisi, nulla porro quidem quod reiciendis reprehenderit sequi
+            sunt?</p>
 
     </div>
 
     <div id="footer">
 
-        <p>&copy; Copyright some webdesigner - color scheme:
-            <a href="http://colorschemedesigner.com/#3m31Tw0w0w0w0" target="_blank">3m31Tw0w0w0w0</a></p>
+        <p>&copy; Copyright Cute Cuke - color scheme:
+            <a href="http://colorschemedesigner.com/#5p11Tw0w0w0w0" target="_blank">5p11Tw0w0w0w0</a>
+        </p>
 
     </div>
 

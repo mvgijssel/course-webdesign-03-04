@@ -4,8 +4,39 @@ body {
 }
 
 nav {
-    background-color: #CCC;
+    background-color: #04859D;
     padding: 10px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: #FFF;
+    display: block;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+nav a:hover
+{
+    padding: 10px 10px 9px 10px;
+    border-bottom: 1px solid #FFF;
+}
+
+a {
+    color: #FF1800;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
 }
 
 .horizontal-row {
@@ -30,6 +61,10 @@ nav {
     padding-bottom: 15px;
 }
 
+#content h1, h4 {
+    color: #FFB000;
+}
+
 #content table {
     border: 1px solid black;
     margin-bottom: 20px;
@@ -40,5 +75,5 @@ nav {
 }
 
 #image-map img {
-    border: 3px solid blue;
+    border: 3px solid #FF1800;
 }

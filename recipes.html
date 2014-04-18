@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webdesign - Assignment 6</title>
+    <link id="page-style" rel="stylesheet" href="stylesheets/styles.css" type="text/css">
+    <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css"
+          title="For partially sighted users.">
+    <meta name="robots" content="noindex, nofollow"/>
+    <script type="application/javascript">
+
+        function swapStyleSheet(sheet) {
+            document.getElementById("page-style").setAttribute("href", "stylesheets/" + sheet + ".css");
+        }
+
+    </script>
+</head>
+
+<!-- defined the sans-serif font for the entire page -->
+<body>
+
+<div id="navigation-wrapper">
+
+    <nav id="navigation">
+
+        <ul>
+
+            <li>
+                <a href="index.html" id="logo">
+                    <img src="images/cute-cake_transparant.png" alt="Cute Cake logo"/>
+                </a>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="bakery.html">Bakery</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="cakes.html">Cakes</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li class="pull-right">
+                <a href="https://github.com/mvgijssel/course-webdesign-03-04/pull/6/commits" target="_blank">Github
+                    Changelog</a>
+            </li>
+
+            <li class="pull-right" id="styling">
+                <a href="#" onclick="swapStyleSheet('styles'); return false;">Normal</a>
+                <a href="#" class="large" onclick="swapStyleSheet('alt_styles'); return false;">Large</a>
+            </li>
+
+        </ul>
+
+        <div class="clear"></div>
+
+    </nav>
+
+</div>
+
+<div id="wrapper">
+
+    <div id="content">
+
+        <h1>Our public recipe</h1>
+
+        <h4>Ingredients</h4>
+        <ul>
+            <li>2 1/4 cups all purpose flour</li>
+            <li>1 1/3 cups sugar</li>
+            <li>3 teaspoons baking powder</li>
+            <li>1/2 teaspoon salt</li>
+            <li>1/2 cup shortening</li>
+            <li>1 cup milk</li>
+            <li>1 teaspoon vanilla</li>
+            <li>2 large eggs</li>
+        </ul>
+
+        <br/>
+
+        <p>
+            <!-- http://www.cupcakerecipes.com/easyrecipe.htm -->
+            Easy Cupcake Recipe Directions
+
+            Preheat oven to 350 degrees. Line cupcake pans with paper liners.
+
+            Combine flour, sugar, baking powder, and salt in a large mixing bowl. Add shortening, milk, and vanilla.
+            Beat for 1 minute on medium speed. Scrape side of bowl with a spatula.
+
+            Add eggs to the mixture. Beat for 1 minute on medium speed. Scrape bowl again. Beat on high speed for 1
+            minute 30 seconds until well mixed.
+
+            Spoon cupcake batter into paper liners until 1/2 to 2/3 full.
+
+            Bake for 20 to 25 minutes or until toothpick inserted in center comes out clean.
+
+            Cool 5 minutes in pans then remove and place on wire racks to cool completely.
+
+            Once cupcakes are completely cooled, frost with your favorite frosting recipe or decorate as you desire.
+        </p>
+
+    </div>
+
+    <div id="footer">
+
+        <p>&copy; Copyright Cute Cuke - color scheme:
+            <a href="http://colorschemedesigner.com/#5p11Tw0w0w0w0" target="_blank">5p11Tw0w0w0w0</a>
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -62,6 +62,7 @@ body {
     margin-right: 5px;
 }
 
+#navigation a.current,
 #navigation a:hover {
     padding: 10px 10px 9px 10px;
     border-bottom: 1px solid #FFF;

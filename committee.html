@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webdesign - Final</title>
+    <link id="page-style" rel="stylesheet" href="stylesheets/styles.css" type="text/css">
+    <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css"
+          title="For partially sighted users.">
+    <script type="application/javascript" src="javascript/javascript.js"></script>
+    <style type="text/css">
+
+        #content img {
+            margin-right: 10px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            border: 5px solid #999999;
+        }
+
+        #content .member {
+            float: left;
+            margin-right: 20px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+<!-- START header -->
+<div id="header-wrapper">
+    <div id="header">
+        <a href="index.html" id="logo">
+            <img src="images/logo-conference.png" alt="everybody loves Reactjs logo"/>
+        </a>
+    </div>
+</div>
+<!-- END header -->
+
+<!-- START navigation -->
+<div id="navigation-wrapper">
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="keynote.html">Keynote</a></li>
+            <li><a href="costs.html">Costs</a></li>
+            <li><a href="location.html">Getting here</a></li>
+            <li><a href="committee.html" class="current">Committee</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="signup.html">Sign me up!</a></li>
+            <li><a href="login.html">Login</a></li>
+
+            <li class="pull-right" id="styling">
+                <a href="#" onclick="swapStyleSheet('styles'); return false;">Normal</a>
+                <a href="#" class="large" onclick="swapStyleSheet('alt_styles'); return false;">Large</a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </nav>
+</div>
+<!-- END navigation -->
+
+<!-- START content -->
+<div id="content-wrapper">
+    <div id="content">
+        <div id="content-row">
+            <h1>The people who are making this possible:</h1>
+
+            <div class="member">
+                <h4>Maarten van Gijssel - Chairman</h4>
+                <img src="images/member1.jpg" alt="Maarten van Gijssel - Chairman photo">
+            </div>
+
+            <div class="member">
+                <h4>Shawn Barker - Secretary</h4>
+                <img src="images/member2.jpg" alt="Shawn Barker - Secretary photo">
+            </div>
+
+            <div class="member">
+                <h4>Jamila Schneck - Treasurer</h4>
+                <img src="images/member3.jpg" alt="Jamila Schneck - Treasurer photo">
+            </div>
+
+            <div class="member">
+                <h4>Lyle Kearl - Editor</h4>
+                <img src="images/member4.jpg" alt="Lyle Kearl - Editor photo">
+            </div>
+
+            <div class="member">
+                <h4>Wynell Hiltner - Webmaster</h4>
+                <img src="images/member5.jpg" alt="Wynell Hiltner - Webmaster photo">
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="footer">
+                <p>&copy; Copyright everybody loves Reactjs - <a href="https://github.com/mvgijssel/course-webdesign-03-04/pull/7/commits" target="_blank">Github
+                    Changelog</a> - <a href="maintenance.html">Maintenance</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END content -->
+
+</body>
+</html>

@@ -202,10 +202,13 @@ body {
     height: 200px;
 }
 
+#content form {
+    margin-bottom: 30px;
+}
+
 #content .form-field input {
     display: inline-block;
 }
-
 
 a {
     color: #FF0000;

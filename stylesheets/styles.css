@@ -176,6 +176,37 @@ body {
     padding: 10px;
 }
 
+#content .form-field {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#content .form-group {
+    margin-bottom: 20px;
+
+}
+
+#content .form-group .form-field {
+    margin-bottom: 5px;
+}
+
+#content .form-field label {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
+
+#content form textarea {
+    width: 400px;
+    height: 200px;
+}
+
+#content .form-field input {
+    display: inline-block;
+}
+
+
 a {
     color: #FF0000;
 }

@@ -207,6 +207,10 @@ body {
     display: inline-block;
 }
 
+#content .img-right {
+    float: right;
+}
+
 a {
     color: #FF0000;
 }

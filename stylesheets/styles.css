@@ -4,27 +4,52 @@
     padding: 0;
 }
 
+/*
+
+colors used:
+
+white: #FFFFFF
+grey: #999999
+red: #FF0000
+black: #000000
+
+*/
+
 body {
     font-family: sans-serif;
     font-size: 14px;
-    color: #9F1C38;
-    background: #ffecb8 url('../images/cute-cake-design_transparant.png') repeat;
 }
 
-p {
-    line-height: 1.6em;
-    margin-bottom: 10px;
+#header,
+#navigation,
+#content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-nav {
-    padding: 10px;
+#header-wrapper {
+    background-color: #FFFFFF;
 }
 
-nav li {
+#header {
+    text-align:center;
+}
+
+#navigation-wrapper {
+    background-color: #FF0000;
+}
+
+#navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navigation li {
     list-style: none;
 }
 
-nav a {
+#navigation a {
     color: #FFF;
     display: block;
     float: left;
@@ -33,52 +58,99 @@ nav a {
     margin-right: 5px;
 }
 
-nav #logo {
+#navigation #logo {
     padding-top: 6px;
     padding-right: 15px;
     padding-bottom: 1px;
 }
 
-nav #logo img {
+#navigation #logo img {
     width: 180px;
     padding: 0;
 }
 
-nav #logo:hover {
+#navigation #logo:hover {
     border: 0;
     padding-bottom: 0;
 }
 
-nav a:hover {
+#navigation a:hover {
     padding: 10px 10px 9px 10px;
     border-bottom: 1px solid #FFF;
 }
 
-nav .pull-right {
+#navigation .pull-right {
     float: right;
 }
 
-nav #styling a {
+#navigation #styling a {
     margin-right: 10px;
     padding: 10px 0 10px 0;
 }
 
-nav #styling a.large {
+#navigation #styling a.large {
     font-size: 20px;
     padding-top: 4px;
 }
 
-nav #styling a.large:hover {
+#navigation #styling a.large:hover {
     font-size: 20px;
     padding-top: 4px;
 }
 
-nav #styling a:hover {
+#navigation #styling a:hover {
     padding: 10px 0 9px 0;
 }
 
+#content {
+    margin-top: 20px;
+}
+
+#content p {
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+#content .row img {
+    margin: 10px;
+    border: 5px solid white;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#content-row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#content .img-left {
+    float: left;
+}
+
+#content .img-right {
+    float: right;
+}
+
+#content h1 {
+    text-align: left;
+    display: block;
+    padding-bottom: 15px;
+}
+
+#content h1, h4 {
+    color: #FF0000;
+}
+
+#content table {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
 a {
-    color: #AB2B52;
+    color: #FF0000;
 }
 
 a:hover {
@@ -97,67 +169,17 @@ a:hover {
     margin-bottom: 15px;
 }
 
-#navigation-wrapper {
-    background-color: #E40045;
-}
-
-#navigation,
-#wrapper {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#content {
-    margin-top: 20px;
-}
-
-#content .row img {
-    margin: 10px;
-    border: 5px solid white;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
-
-#content .img-left {
-    float: left;
-}
-
-#content .img-right {
-    float: right;
-}
-
-#content h1 {
-    text-align: center;
-    display: block;
-    padding-bottom: 15px;
-}
-
-#content h1, h4 {
-    color: #94002D;
-}
-
-#content table {
-    border: 1px solid black;
-    margin-bottom: 20px;
-}
-
 #content ul {
     margin-left: 20px;
 }
 
 #footer {
-    border-top: 1px solid #E40045;
+    border-top: 1px solid #FF0000;
     margin-top: 10px;
     padding-top: 10px;
     margin-bottom: 10px;
 }
 
 #footer p {
-    color: #505050;
-}
-
-#image-map img {
-    border: 3px solid #AB2B52;
+    color: #999999;
 }

@@ -134,6 +134,26 @@ body {
     color: #FF0000;
 }
 
+#content dl {
+    margin-top: 10px;
+    clear: both;
+}
+
+#content dl dt {
+    font-weight: bold;
+    width: 150px;
+    clear: left;
+    float: left;
+    vertical-align: top;
+}
+
+#content dl dd {
+    float: left;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
 #content table {
     margin-bottom: 30px;
     margin-top: 10px;

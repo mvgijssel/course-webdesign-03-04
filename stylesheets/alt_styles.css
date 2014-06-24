@@ -1,0 +1,231 @@
+/* reset all the default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+colors used:
+
+white: #FFFFFF
+grey: #999999
+red: #FF0000
+black: #000000
+
+*/
+
+body {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+#navigation,
+#content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-wrapper {
+    background-color: #FFFFFF;
+    border-bottom: 10px solid #999999;
+}
+
+#header {
+    text-align:center;
+}
+
+#header #logo {
+    border: 0;
+}
+
+#navigation-wrapper {
+    background-color: #FF0000;
+}
+
+#navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navigation li {
+    list-style: none;
+}
+
+#navigation a {
+    color: #FFF;
+    display: block;
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#navigation a.current,
+#navigation a:hover {
+    padding: 20px 20px 18px 20px;
+    border-bottom: 2px solid #FFF;
+}
+
+#navigation .pull-right {
+    float: right;
+}
+
+#navigation #styling a {
+    color: #000000;
+    margin-right: 20px;
+    padding: 20px 0 10px 0;
+}
+
+#navigation #styling a.large {
+    font-size: 40px;
+    padding-top: 8px;
+}
+
+#navigation #styling a.large:hover {
+    font-size: 40px;
+    padding-top: 8px;
+}
+
+#navigation #styling a:hover {
+    padding: 20px 0 18px 0;
+}
+
+#content {
+    margin-top: 40px;
+}
+
+#content p {
+    line-height: 3.2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#content p img {
+    border: 10px solid #999999;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+#content-row {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#content h1 {
+    text-align: left;
+    display: block;
+    padding-bottom: 30px;
+}
+
+#content h1, h4 {
+    color: #FF0000;
+}
+
+#content dl {
+    margin-top: 20px;
+    clear: both;
+}
+
+#content dl dt {
+    font-weight: bold;
+    width: 300px;
+    clear: left;
+    float: left;
+    vertical-align: top;
+}
+
+#content dl dd {
+    float: left;
+    width: 600px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+#content table {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+#content table th {
+    background-color: #000;
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 10px;
+}
+
+#content table td {
+    padding: 20px;
+}
+
+#content .form-field {
+    display: block;
+    margin-bottom: 40px;
+}
+
+#content .form-group {
+    margin-bottom: 40px;
+}
+
+#content .form-group .form-field {
+    margin-bottom: 5px;
+}
+
+#content .form-field label {
+    font-weight: bold;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+#content form textarea {
+    width: 600px;
+    height: 400px;
+}
+
+#content form input[type="checkbox"],
+#content form input[type="password"],
+#content form input[type="text"],
+#content form input[type="radio"],
+#content form input[type="submit"],
+#content form select {
+    height: 50px;
+    padding: 4px;
+}
+
+#content form input[type="text"],
+#content form input[type="password"] {
+    width: 600px;
+}
+
+#content form {
+    margin-bottom: 60px;
+}
+
+#content .form-field input {
+    display: inline-block;
+}
+
+a {
+    color: #FF0000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    border-top: 2px solid #FF0000;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer p {
+    color: #999999;
+}

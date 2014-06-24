@@ -102,6 +102,12 @@ body {
     color: #000000;
 }
 
+#content p img {
+    border: 5px solid #999999;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
 #content .row img {
     margin: 10px;
     border: 5px solid white;

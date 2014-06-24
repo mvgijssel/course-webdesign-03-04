@@ -30,10 +30,15 @@ body {
 
 #header-wrapper {
     background-color: #FFFFFF;
+    border-bottom: 5px solid #999999;
 }
 
 #header {
     text-align:center;
+}
+
+#header #logo {
+    border: 0;
 }
 
 #navigation-wrapper {
@@ -56,22 +61,6 @@ body {
     padding: 10px;
     text-decoration: none;
     margin-right: 5px;
-}
-
-#navigation #logo {
-    padding-top: 6px;
-    padding-right: 15px;
-    padding-bottom: 1px;
-}
-
-#navigation #logo img {
-    width: 180px;
-    padding: 0;
-}
-
-#navigation #logo:hover {
-    border: 0;
-    padding-bottom: 0;
 }
 
 #navigation a:hover {

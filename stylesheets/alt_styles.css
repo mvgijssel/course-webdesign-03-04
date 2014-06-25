@@ -213,6 +213,7 @@ body {
 
 #content ul {
     list-style: none;
+    margin-bottom: 60px;
 }
 
 a {

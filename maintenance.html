@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reactjs conference maintenance</title>
+    <link id="page-style" rel="stylesheet" href="stylesheets/styles.css" type="text/css">
+    <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css"
+          title="For partially sighted users.">
+    <script type="application/javascript" src="javascript/javascript.js"></script>
+    <style type="text/css">
+
+        #content p {
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- START header -->
+<div id="header-wrapper">
+    <div id="header">
+        <a href="index.html" id="logo">
+            <img src="images/logo-conference.png" alt="everybody loves Reactjs logo"/>
+        </a>
+    </div>
+</div>
+<!-- END header -->
+
+<!-- START navigation -->
+<div id="navigation-wrapper">
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="keynote.html">Keynote</a></li>
+            <li><a href="costs.html">Costs</a></li>
+            <li><a href="location.html">Getting here</a></li>
+            <li><a href="committee.html">Committee</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="signup.html">Sign me up!</a></li>
+            <li><a href="login.html">Login</a></li>
+
+            <li class="pull-right" id="styling">
+                <a href="#" onclick="swapStyleSheet('styles'); return false;">Normal</a>
+                <a href="#" class="large" onclick="swapStyleSheet('alt_styles'); return false;">Large</a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </nav>
+</div>
+<!-- END navigation -->
+
+<!-- START content -->
+<div id="content-wrapper">
+    <div id="content">
+        <div id="content-row">
+            <h1>Maintenance</h1>
+            <h4>The directory structure</h4>
+            <p>All the different pages are in the root directory. The images are placed in a folder called 'images', the javascript used is placed in the folder 'javascript', the stylesheets in the folder 'stylesheets' and the design elements used in the folder 'design'.</p>
+
+            <h4>The stylesheets used</h4>
+            <p>There are two stylesheets 'styles.css' and 'alt_styles.css'. The first is for the normal layout and the second is used for the visually impaired.</p>
+
+            <h4>Internal stylesheets</h4>
+            <p>The following pages use an internal stylesheet:</p>
+            <ul>
+                <li><a href="committee.html">Committee</a></li>
+                <li><a href="location.html">Getting here</a></li>
+                <li><a href="maintenance.html">Maintenance</a></li>
+                <li><a href="servererror.html">Server error</a></li>
+            </ul>
+
+            <h4>Inline style definitions</h4>
+            <p>The following page uses an inline style definition:</p>
+            <ul>
+                <li><a href="committee.html">Committee</a></li>
+            </ul>
+
+            <h4>The images (dimensions, compression and transparency)</h4>
+            <p>The logo, everybody loves Reactjs, is a PNG with transparency and dimensions 498x161. The other images used are JPEG, with quality 80 (20% compression). The dimensions of the image on the keynote page is 400x267. The images used on the committee page are all 200x200.</p>
+
+            <h4>The fonts that are used</h4>
+            <p>The font used for the normal text is the standard sans-serif font. The font for all the headlines is the standard serif font. The font used in the logo is Helvetica Neue.</p>
+
+            <h4>The search engine optimization techniques that were used</h4>
+            <p>The following SEO techniques were used:</p>
+            <ul>
+                <li>Added a robots.txt file to the root of the website</li>
+                <li>Used alternative text on images</li>
+                <li>The filenames of the images represent the content of the images themselves</li>
+                <li>Added a meta description tag the the home page</li>
+                <li>The titles of all the pages reflect their content</li>
+            </ul>
+
+            <div id="footer">
+                <p>&copy; Copyright everybody loves Reactjs - <a href="https://github.com/mvgijssel/course-webdesign-03-04/pull/7/commits" target="_blank">Github
+                    Changelog</a> - <a href="maintenance.html">Maintenance</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END content -->
+
+</body>
+</html>

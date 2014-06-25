@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Reactjs conference home page</title>
+    <title>Reactjs conference login</title>
     <link id="page-style" rel="stylesheet" href="stylesheets/styles.css" type="text/css">
     <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css"
           title="For partially sighted users.">
@@ -11,7 +11,7 @@
 
 
     </style>
-    <meta name="description" content="The page for the yearly conference about the Reactjs framework with information like the location and the program.">
+
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 <div id="navigation-wrapper">
     <nav id="navigation">
         <ul>
-            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="program.html">Program</a></li>
             <li><a href="workshops.html">Workshops</a></li>
             <li><a href="keynote.html">Keynote</a></li>
@@ -39,7 +39,7 @@
             <li><a href="committee.html">Committee</a></li>
             <li><a href="participants.html">Participants</a></li>
             <li><a href="signup.html">Sign me up!</a></li>
-            <li><a href="login.html">Login</a></li>
+            <li><a href="login.html" class="current">Login</a></li>
 
             <li class="pull-right" id="styling">
                 <a href="#" onclick="swapStyleSheet('styles'); return false;">Normal</a>
@@ -55,16 +55,26 @@
 <div id="content-wrapper">
     <div id="content">
         <div id="content-row">
-            <h1>Welcome to the 'everybody loves Reactjs' conference website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet atque commodi cumque debitis
-                delectus eaque eius fugiat fugit id itaque nisi, nulla porro quidem quod reiciendis reprehenderit sequi
-                sunt?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet atque commodi cumque debitis
-                delectus eaque eius fugiat fugit id itaque nisi, nulla porro quidem quod reiciendis reprehenderit sequi
-                sunt?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet atque commodi cumque debitis
-                delectus eaque eius fugiat fugit id itaque nisi, nulla porro quidem quod reiciendis reprehenderit sequi
-                sunt?</p>
+            <h1>Login</h1>
+            <h4>Current date: <span id="date"></span></h4>
+            <br />
+
+            <form method="post" action="servererror.html" id="login" onsubmit="return validateForm()">
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <div class="form-field">
+                    <input type="submit" value="Login!">
+                </div>
+
+            </form>
 
             <div id="footer">
                 <p>&copy; Copyright everybody loves Reactjs - <a href="https://github.com/mvgijssel/course-webdesign-03-04/pull/7/commits" target="_blank">Github
@@ -75,5 +85,8 @@
 </div>
 <!-- END content -->
 
+<script type="application/javascript">
+    setDate('date');
+</script>
 </body>
 </html>

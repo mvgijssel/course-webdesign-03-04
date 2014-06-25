@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reactjs conference signup</title>
+    <link id="page-style" rel="stylesheet" href="stylesheets/styles.css" type="text/css">
+    <link rel="alternate stylesheet" href="stylesheets/alt_styles.css" type="text/css"
+          title="For partially sighted users.">
+    <script type="application/javascript" src="javascript/javascript.js"></script>
+    <style type="text/css">
+
+
+
+    </style>
+</head>
+
+<body>
+
+<!-- START header -->
+<div id="header-wrapper">
+    <div id="header">
+        <a href="index.html" id="logo">
+            <img src="images/logo-conference.png" alt="everybody loves Reactjs logo"/>
+        </a>
+    </div>
+</div>
+<!-- END header -->
+
+<!-- START navigation -->
+<div id="navigation-wrapper">
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="keynote.html">Keynote</a></li>
+            <li><a href="costs.html">Costs</a></li>
+            <li><a href="location.html">Getting here</a></li>
+            <li><a href="committee.html">Committee</a></li>
+            <li><a href="participants.html">Participants</a></li>
+            <li><a href="signup.html" class="current">Sign me up!</a></li>
+            <li><a href="login.html">Login</a></li>
+
+            <li class="pull-right" id="styling">
+                <a href="#" onclick="swapStyleSheet('styles'); return false;">Normal</a>
+                <a href="#" class="large" onclick="swapStyleSheet('alt_styles'); return false;">Large</a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </nav>
+</div>
+<!-- END navigation -->
+
+<!-- START content -->
+<div id="content-wrapper">
+    <div id="content">
+        <div id="content-row">
+            <h1>Sign me up!</h1>
+
+            <form method="post" action="servererror.html">
+                <div class="form-field">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+
+                <div class="form-field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <div class="form-field">
+                        <label>Gender</label>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="male" id="male">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="female" id="female">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-field">
+                        <label>Which days?</label>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="day1">Day 1</label>
+                        <input type="checkbox" name="day1" id="day1">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="day2">Day 2</label>
+                        <input type="checkbox" name="day2" id="day2">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="day3">Day 3</label>
+                        <input type="checkbox" name="day3" id="day3">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="day4">Day 4</label>
+                        <input type="checkbox" name="day4" id="day4">
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <div class="form-field">
+                    <label for="password-confirmation">Password confirmation</label>
+                    <input type="password" name="password-confirmation" id="password-confirmation">
+                </div>
+
+                <div class="form-field">
+                    <label for="interest">Interest</label>
+                    <select name="interest" id="interest">
+                        <option value="react">React</option>
+                        <option value="backbone">Backbone</option>
+                        <option value="best-practices" selected>Best practices</option>
+                        <option value="keynote">Keynote</option>
+                    </select>
+                </div>
+
+                <div class="form-field">
+                    <label for="questions">Questions</label>
+                    <textarea name="questions" id="questions" placeholder="If you have any more questions you can ask them here"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <input type="submit" value="Sign me up!">
+                </div>
+
+            </form>
+
+            <div id="footer">
+                <p>&copy; Copyright everybody loves Reactjs - <a href="https://github.com/mvgijssel/course-webdesign-03-04/pull/7/commits" target="_blank">Github
+                    Changelog</a> - <a href="maintenance.html">Maintenance</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END content -->
+
+</body>
+</html>

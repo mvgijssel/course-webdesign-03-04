@@ -113,14 +113,15 @@ body {
     margin-right: 10px;
 }
 
+#content h1, h4 {
+    color: #FF0000;
+    font-family: serif;
+}
+
 #content h1 {
     text-align: left;
     display: block;
     padding-bottom: 15px;
-}
-
-#content h1, h4 {
-    color: #FF0000;
 }
 
 #content dl {

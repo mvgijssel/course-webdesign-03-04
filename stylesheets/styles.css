@@ -211,6 +211,10 @@ body {
     float: right;
 }
 
+#content ul {
+    list-style: none;
+}
+
 a {
     color: #FF0000;
 }
